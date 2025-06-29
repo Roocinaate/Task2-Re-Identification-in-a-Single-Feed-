@@ -1,4 +1,4 @@
-# Task - 2:⚽ Re-identofication in a Single Feed
+# Task - 2:⚽ Re-identification in a Single Feed
 
 This project provides a robust solution for detecting and re-identifying football players within a video feed, ensuring consistent ID assignment even when players leave and re-enter the frame. It leverages YOLO for object detection and BoT-SORT for multi-object tracking with re-identification capabilities, topped with a custom ID management system.
 
