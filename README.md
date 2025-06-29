@@ -1,8 +1,8 @@
-**Task - 2:⚽ Re-identofication in a Single Feed**
+# Task - 2:⚽ Re-identofication in a Single Feed
 
 This project provides a robust solution for detecting and re-identifying football players within a video feed, ensuring consistent ID assignment even when players leave and re-enter the frame. It leverages YOLO for object detection and BoT-SORT for multi-object tracking with re-identification capabilities, topped with a custom ID management system.
 
-**Features:**
+# Features:
 Player & Ball Detection: Utilizes a custom-trained YOLO model (best.pt) to accurately detect players and the ball.
 
 Robust Multi-Object Tracking: Integrates BoT-SORT, an advanced tracking algorithm, for smooth and persistent tracking of objects across frames.
@@ -15,7 +15,7 @@ Referee Detection Support: Includes visualization support for a 'referee' class,
 
 Video Output: Generates an output video with detected objects and assigned player IDs.
 
-**Tech Stack**
+# Tech Stack
 Language: Python 3.10
 
 Core Libraries:
@@ -28,7 +28,7 @@ numpy: For numerical operations (a dependency of the above).
 
 Object Detection Model: Custom best.pt (YOLOv11 fine-tuned for players and ball).
 
-**How to Set Up and Run the Code**
+# How to Set Up and Run the Code
 Follow these steps to get the project up and running on your local machine.
 
 1. Prerequisites
@@ -94,7 +94,7 @@ Print progress and performance statistics to the console.
 
 Press q on the display window to stop the video processing prematurely.
 
-**Configuration**
+# Configuration
 You can adjust key parameters directly within the task2.py file:
 
 # --- Configuration ---
@@ -116,7 +116,7 @@ track_high_thresh / track_low_thresh: Adjust detection confidence thresholds use
 
 max_iou_distance / max_cosine_distance: Fine-tune the matching criteria based on spatial overlap and appearance similarity.
 
-**Notes on Referee Detection**
+# Notes on Referee Detection
 Your provided best.pt model might not include a 'referee' class. If referees are not being detected, you will need to:
 
 Collect Data: Gather images/frames containing referees.
