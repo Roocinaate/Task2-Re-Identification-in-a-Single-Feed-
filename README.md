@@ -55,16 +55,16 @@ Important: This botsort.yaml file is part of the ultralytics library. You can fi
 It's highly recommended to use a virtual environment to manage dependencies.
 
 # 1. Create a virtual environment
-python -m venv venv
+    python -m venv venv
 
 # 2. Activate the virtual environment
 # On Windows:
-.\venv\Scripts\activate
+    .\venv\Scripts\activate
 # On macOS/Linux:
-source venv/bin/activate
+    source venv/bin/activate
 
 # 3. Install required Python packages
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 requirements.txt content:
 opencv-python>=4.5.0
@@ -73,12 +73,13 @@ torch>=1.8.0 # Adjust based on your system (CPU or CUDA)
 numpy>=1.20.0
 
 Note on torch: If you have an NVIDIA GPU, installing a CUDA-enabled version of torch will significantly speed up model inference. Refer to the PyTorch website for specific installation commands for your CUDA version. For CPU-only, use:
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 4. Running the Code
 Once the environment is set up and files are in place, run the main script:
 
-python task2.py
+       python task2.py
 
 The script will:
 
